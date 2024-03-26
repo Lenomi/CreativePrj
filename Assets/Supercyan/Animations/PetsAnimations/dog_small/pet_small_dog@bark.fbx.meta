@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 02414e2269a08194fb51ab3fdbe7e078
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: pet_small_dog@bark(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PetsSmallDog_
+      parentName: pet_small_dog@bark(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5000001, y: -0.50000006, z: -0.4999999, w: 0.49999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PetsSmallDog_Root
+      parentName: pet_small_dog@bark(Clone)
+      position: {x: 1.5916157e-14, y: 0.21067393, z: -0.000000029802322}
+      rotation: {x: -0.49391487, y: 0.506012, z: 0.49391496, w: -0.5060119}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PetsSmallDog_Spine1
+      parentName: PetsSmallDog_Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000021667384, y: -0.000000022099584, z: 0.07630084, w: 0.99708486}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: PetsSmallDog_Spine2
+      parentName: PetsSmallDog_Spine1
+      position: {x: -0.08268493, y: -0.000000019073486, z: -0.0000000071054997}
+      rotation: {x: 0.00000003650454, y: -0.000000015202945, z: -0.07309247, w: 0.9973252}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: PetsSmallDog_Spine3
+      parentName: PetsSmallDog_Spine2
+      position: {x: -0.08268492, y: 0.000000019073486, z: 4.5474734e-15}
+      rotation: {x: 0.000000017466244, y: 0.000000010366507, z: -0.06250969, w: 0.9980444}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: PetsSmallDog_Rib
+      parentName: PetsSmallDog_Spine3
+      position: {x: -0.08268493, y: 0, z: 4.5474734e-15}
+      rotation: {x: -0.000000046738496, y: -0.000000089246164, z: -0.56032526, w: 0.8282727}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: PetsSmallDog_LShoulder
+      parentName: PetsSmallDog_Rib
+      position: {x: 0.022141078, y: 0.012783107, z: 0.041378915}
+      rotation: {x: -0.045451436, y: 0.6077161, z: -0.039744683, w: 0.7918559}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000005}
+    - name: PetsSmallDog_LArm
+      parentName: PetsSmallDog_LShoulder
+      position: {x: -0.08093265, y: 0, z: -0.0000000023841857}
+      rotation: {x: 0.9197825, y: -0.006965829, z: -0.13746293, w: -0.36749902}
+      scale: {x: 1, y: 1.0000001, z: 0.99999964}
+    - name: PetsSmallDog_LForearm
+      parentName: PetsSmallDog_LArm
+      position: {x: -0.09997545, y: 0, z: 0}
+      rotation: {x: -0.0035884962, y: -0.012060238, z: -0.04672186, w: 0.9988287}
+      scale: {x: 1.0000032, y: 0.9999967, z: 1.0000002}
+    - name: PetsSmallDog_LWrist
+      parentName: PetsSmallDog_LForearm
+      position: {x: -0.09118761, y: 0, z: 0.000000009536743}
+      rotation: {x: -0.08378514, y: -0.01514206, z: -0.15218525, w: 0.98467785}
+      scale: {x: 0.99999744, y: 1.0000024, z: 1.0000001}
+    - name: PetsSmallDog_LPaw
+      parentName: PetsSmallDog_LWrist
+      position: {x: -0.026828587, y: -0.005316019, z: 0.0014893102}
+      rotation: {x: -0.00000025409636, y: 0.00000017253132, z: -0.5686844, w: 0.82255584}
+      scale: {x: 0.9999963, y: 1.0000037, z: 0.99999994}
+    - name: PetsSmallDog_Neck
+      parentName: PetsSmallDog_Rib
+      position: {x: 0.004871311, y: -0.027626267, z: 0.000000004207227}
+      rotation: {x: -0.000000037902023, y: 0.00000006962342, z: 0.46237314, w: 0.88668543}
+      scale: {x: 1, y: 1.0000006, z: 0.99999994}
+    - name: PetsSmallDog_Head
+      parentName: PetsSmallDog_Neck
+      position: {x: -0.066021, y: 0, z: 2.2737367e-15}
+      rotation: {x: 0.00000008354714, y: -0.000000037350024, z: 0.1674018, w: 0.9858888}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1}
+    - name: PetsSmallDog_LEar
+      parentName: PetsSmallDog_Head
+      position: {x: -0.22886702, y: 0.03556031, z: 0.11069146}
+      rotation: {x: -0.70302516, y: 0.07586644, z: 0.07586632, w: 0.7030251}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PetsSmallDog_REar
+      parentName: PetsSmallDog_Head
+      position: {x: -0.2288671, y: 0.035560273, z: -0.11122857}
+      rotation: {x: -0.703025, y: -0.07586653, z: -0.0758665, w: 0.7030253}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PetsSmallDog_RShoulder
+      parentName: PetsSmallDog_Rib
+      position: {x: 0.022141065, y: 0.012783165, z: -0.041378923}
+      rotation: {x: 0.04545193, y: -0.6077159, z: -0.03974468, w: 0.791856}
+      scale: {x: 0.99999964, y: 1.0000001, z: 1}
+    - name: PetsSmallDog_RArm
+      parentName: PetsSmallDog_RShoulder
+      position: {x: -0.080932654, y: 0, z: 0.0000000047683715}
+      rotation: {x: 0.9198218, y: -0.006938081, z: 0.13745864, w: 0.36740276}
+      scale: {x: 0.9999998, y: 1.0000006, z: 0.9999998}
+    - name: PetsSmallDog_RForearm
+      parentName: PetsSmallDog_RArm
+      position: {x: -0.09997543, y: -0.0000000047683715, z: -0.0000000047683715}
+      rotation: {x: 0.003709673, y: 0.012219702, z: -0.046709016, w: 0.9988269}
+      scale: {x: 1.0000014, y: 0.9999993, z: 1}
+    - name: PetsSmallDog_RWrist
+      parentName: PetsSmallDog_RForearm
+      position: {x: -0.09118759, y: 0, z: -0.0000000047683715}
+      rotation: {x: 0.08374016, y: 0.014195747, z: -0.15228634, w: 0.9846801}
+      scale: {x: 0.99999744, y: 1.0000025, z: 1}
+    - name: PetsSmallDog_RPaw
+      parentName: PetsSmallDog_RWrist
+      position: {x: -0.02682859, y: -0.005316038, z: -0.001489315}
+      rotation: {x: 0.0000000018152632, y: -0.000000008633341, z: -0.5686839, w: 0.82255614}
+      scale: {x: 0.9999936, y: 1.000007, z: 1}
+    - name: PetsSmallDog_LLegThigh
+      parentName: PetsSmallDog_Root
+      position: {x: 0.000000009536743, y: 0.000000038146972, z: 0.0655693}
+      rotation: {x: 0.071912915, y: -0.99699634, z: -0.017172545, w: -0.02306515}
+      scale: {x: 1.000003, y: 0.9999973, z: 1.0000001}
+    - name: PetsSmallDog_LLegShin
+      parentName: PetsSmallDog_LLegThigh
+      position: {x: -0.1511697, y: -0.0000000047683715, z: 0.0000000047683715}
+      rotation: {x: -0.0077462844, y: -0.004000671, z: 0.29963982, w: 0.95401263}
+      scale: {x: 0.9999977, y: 1.0000021, z: 0.9999999}
+    - name: PetsSmallDog_LLegAnkle
+      parentName: PetsSmallDog_LLegShin
+      position: {x: -0.08558284, y: 0, z: -0.0000000047683715}
+      rotation: {x: -0.078595586, y: 0.13787515, z: -0.88926804, w: 0.42897034}
+      scale: {x: 0.99999076, y: 1.0000094, z: 1.0000002}
+    - name: PetsSmallDog_LLegFoot
+      parentName: PetsSmallDog_LLegAnkle
+      position: {x: -0.08650191, y: 0.0020912741, z: -0.0000034618377}
+      rotation: {x: 0.00004622049, y: -0.000058921232, z: -0.61795676, w: 0.7862121}
+      scale: {x: 0.9999905, y: 1.0000094, z: 0.99999994}
+    - name: PetsSmallDog_Tail1
+      parentName: PetsSmallDog_Root
+      position: {x: 0.010170775, y: -0.019111404, z: 0.0000000024191011}
+      rotation: {x: 0.000000035218395, y: 0.000000111877775, z: 0.9283231, w: 0.3717745}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: PetsSmallDog_Tail2
+      parentName: PetsSmallDog_Tail1
+      position: {x: -0.07293793, y: -0.000000009536743, z: 0}
+      rotation: {x: 0.0070893746, y: 0.013585001, z: -0.46258974, w: 0.88644004}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: PetsSmallDog_Tail3
+      parentName: PetsSmallDog_Tail2
+      position: {x: -0.065875456, y: 0, z: -5.9604643e-10}
+      rotation: {x: 0.067294456, y: 0.0651456, z: -0.59706265, w: 0.79670805}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+    - name: PetsSmallDog_Tail4
+      parentName: PetsSmallDog_Tail3
+      position: {x: -0.05732757, y: 0, z: 0}
+      rotation: {x: 0.0021306786, y: -0.16790558, z: -0.44942203, w: 0.8773956}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000004}
+    - name: PetsSmallDog_Tail5
+      parentName: PetsSmallDog_Tail4
+      position: {x: -0.05221302, y: -0.000000019073486, z: 0}
+      rotation: {x: -0.12288717, y: -0.1706882, z: -0.49980184, w: 0.8402157}
+      scale: {x: 1.0000001, y: 1.0000008, z: 0.9999995}
+    - name: PetsSmallDog_RLegThigh
+      parentName: PetsSmallDog_Root
+      position: {x: 0.000000028610229, y: 0.000000019073486, z: -0.065569304}
+      rotation: {x: 0.07191283, y: -0.99699664, z: 0.017155556, w: 0.0230633}
+      scale: {x: 1.0000032, y: 0.9999974, z: 1}
+    - name: PetsSmallDog_RLegShin
+      parentName: PetsSmallDog_RLegThigh
+      position: {x: -0.1511697, y: -0.0000000047683715, z: 0}
+      rotation: {x: 0.007718609, y: 0.0040086415, z: 0.29965648, w: 0.9540075}
+      scale: {x: 0.9999822, y: 1.0000169, z: 1.0000008}
+    - name: PetsSmallDog_RLegAnkle
+      parentName: PetsSmallDog_RLegShin
+      position: {x: -0.085582845, y: 0, z: 0}
+      rotation: {x: 0.0786308, y: -0.13784938, z: -0.88927764, w: 0.42895225}
+      scale: {x: 0.99996173, y: 1.0000378, z: 1.0000007}
+    - name: PetsSmallDog_RLegFoot
+      parentName: PetsSmallDog_RLegAnkle
+      position: {x: -0.08650192, y: 0.002091255, z: 0.0000034618377}
+      rotation: {x: -0.000046179546, y: 0.000058747224, z: -0.617954, w: 0.78621423}
+      scale: {x: 0.99996185, y: 1.0000381, z: 0.99999994}
+    - name: PetsSmallDog_LLegPlatform
+      parentName: pet_small_dog@bark(Clone)
+      position: {x: -0.06623564, y: -0.000000021262682, z: -0.1382093}
+      rotation: {x: 0.56098557, y: -0.5609854, z: -0.43045935, w: 0.43045947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PetsSmallDog_RLegPlatform
+      parentName: pet_small_dog@bark(Clone)
+      position: {x: 0.06623568, y: -0.000000021262688, z: -0.13820928}
+      rotation: {x: 0.43045938, y: -0.4304593, z: -0.56098545, w: 0.5609856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PetsSmallDog_LIKTarget
+      parentName: pet_small_dog@bark(Clone)
+      position: {x: -0.06849662, y: 0.011198701, z: 0.12038222}
+      rotation: {x: 0.43293, y: -0.63197774, z: -0.36327145, w: 0.530292}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: PetsSmallDog_RIKTarget
+      parentName: pet_small_dog@bark(Clone)
+      position: {x: 0.068496585, y: 0.011198833, z: 0.12038156}
+      rotation: {x: 0.3632715, y: -0.5302923, z: -0.43293, w: 0.6319775}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: PetsSmallDog_Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

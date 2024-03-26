@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!54 &2616496623893031340
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564722657715130528}
+  serializedVersion: 2
+  m_Mass: 0.01
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &5217342927026980631
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564722657715130528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 0.25, z: 0.25}
+  m_Center: {x: 0, y: 0.008490903, z: -0.0000000018626451}
+--- !u!114 &8825018658950712401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564722657715130528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a398672c21693fd4d99315485a7c8fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_itemHoldDummy: {fileID: 4693481911609274361}
+  m_collider: {fileID: 5674825879550773966}
+  m_trigger: {fileID: 5217342927026980631}
+  m_rigidBody: {fileID: 2616496623893031340}
+--- !u!1001 &2057192345727295283
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5930560780782736893, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997270852892071209, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660794940496269203, guid: 9ffce554405315a41bd304c737d4090c,
+        type: 3}
+      propertyPath: m_Name
+      value: pet_treat_bone3_WithPetItemLogic
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9ffce554405315a41bd304c737d4090c, type: 3}
+--- !u!1 &8564722657715130528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7660794940496269203, guid: 9ffce554405315a41bd304c737d4090c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2057192345727295283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5674825879550773966 stripped
+MeshCollider:
+  m_CorrespondingSourceObject: {fileID: 5930560780782736893, guid: 9ffce554405315a41bd304c737d4090c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2057192345727295283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4693481911609274361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6750338833772671178, guid: 9ffce554405315a41bd304c737d4090c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2057192345727295283}
+  m_PrefabAsset: {fileID: 0}

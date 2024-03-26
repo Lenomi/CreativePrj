@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1079434463354716847
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2499074271113877732, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a1489e5618e89594ab432e603b7c9b6a, type: 2}
+    - target: {fileID: 2499074271113877732, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'basic_rig L Calf'\n\tTransform 'basic_rig'\n\tTransform
+        'basic_rig R Hand'\n\tTransform 'basic_rig L Foot'\n\tTransform 'basic_rig
+        R Forearm'\n\tTransform 'basic_rig Spine'\n\tTransform 'basic_rig Head'\n\tTransform
+        'basic_rig Neck'\n\tTransform 'basic_rig L Forearm'\n\tTransform 'basic_rig
+        L Toe0'\n\tand more ...\n\tFrom animation clip 'death1'\n\tFrom animation
+        clip 'death2'\n\tFrom animation clip 'death3'\n\tFrom animation clip 'backwards_run_withWeapon'\n\tFrom
+        animation clip 'backwards_walk_withWeapon'\n\tFrom animation clip 'idle'\n\tFrom
+        animation clip 'walk_withWeapon'\n\tFrom animation clip 'run_withWeapon'\n\tFrom
+        animation clip 'run_strafe_left_withWeapon'\n\tFrom animation clip 'run_strafe_right_withWeapon'\n\tand
+        more ..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633807522744, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_Name
+      value: hospital_staff_student_B_1_WithItemAnimator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009154, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0003167393
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009154, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00024130169
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009178, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009188, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00031502297
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851905633808009188, guid: fbe50d8ae829e1b4bbc8fedccf15ba74,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00024348075
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbe50d8ae829e1b4bbc8fedccf15ba74, type: 3}

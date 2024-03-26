@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &3812450603233788758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5976543039619402999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d967dfa3f5dcc245858efb60b60dd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_renderer: {fileID: 9043816566769028483}
+  m_rig: {fileID: 7385418671136035946}
+--- !u!1001 &2524437635908247827
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8212428944510103012, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_Name
+      value: pet_collar2_cat_onWear_leather_WithAccessoryLogic
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8841613016301139806, guid: 5827e7f4408daff4d9de35a4ca999528,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5827e7f4408daff4d9de35a4ca999528, type: 3}
+--- !u!1 &5976543039619402999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8212428944510103012, guid: 5827e7f4408daff4d9de35a4ca999528,
+    type: 3}
+  m_PrefabInstance: {fileID: 2524437635908247827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &9043816566769028483 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6812413413755432080, guid: 5827e7f4408daff4d9de35a4ca999528,
+    type: 3}
+  m_PrefabInstance: {fileID: 2524437635908247827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7385418671136035946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5005431584059946361, guid: 5827e7f4408daff4d9de35a4ca999528,
+    type: 3}
+  m_PrefabInstance: {fileID: 2524437635908247827}
+  m_PrefabAsset: {fileID: 0}
