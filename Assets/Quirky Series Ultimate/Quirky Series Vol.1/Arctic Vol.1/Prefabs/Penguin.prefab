@@ -707,7 +707,7 @@ Animator:
   m_GameObject: {fileID: 3584599820630843841}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f59f36aa0db265544b1c07c07a120fa3, type: 3}
-  m_Controller: {fileID: 9100000, guid: 83af4e9a548bcd6449be82520effc2be, type: 2}
+  m_Controller: {fileID: 9100000, guid: 30eeae7cc3fba1040bb83dec21387344, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -735,7 +735,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.20862022
   m_Height: 0.6724541
